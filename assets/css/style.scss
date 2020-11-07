@@ -4,9 +4,17 @@
 @import "{{ site.theme }}";
 
 .main-logo {
-    width: 100%;
-    border: none;
-    box-shadow: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-image {
+        height: auto;
+        border: none;
+        box-shadow: none;
+        max-height: 100%;
+    }
 }
 
 .shell {
